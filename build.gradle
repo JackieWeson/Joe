@@ -1,0 +1,17 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        //注意：更换成自己的AS的版本
+    }
+}
+allprojects {
+    repositories {
+        jcenter()
+        google()
+    }
+}
